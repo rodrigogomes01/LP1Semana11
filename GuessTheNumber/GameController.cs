@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GuessTheNumber
 {
-    public class GameController
+    public class Controller
     {
         private int targetNumber;
         private int attempts;

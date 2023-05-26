@@ -16,7 +16,7 @@ namespace GuessTheNumber
             int targetNumber = random.Next(1, 101);
 
             // Create a controller
-            GameController controller = new GameController(targetNumber);
+            Controller controller = new Controller(targetNumber);
 
             // Create a view
             IView view = new View(controller);
