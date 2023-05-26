@@ -19,7 +19,7 @@ namespace GuessTheNumber
             GameController controller = new GameController(targetNumber);
 
             // Create a view
-            GameView view = new GameView();
+            IView view = new View(controller);
 
             // Start the game
             controller.StartGame(view);
